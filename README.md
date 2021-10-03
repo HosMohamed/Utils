@@ -1,5 +1,7 @@
 # ReadExcel
 
+> _Just to simplify the reading of excel files._
+
 ## Prerequists:
 - Python 3.6 and above.
 
