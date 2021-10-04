@@ -1,7 +1,7 @@
 import xlrd
 from xlrd.book import Book
 from xlrd.sheet import Sheet
-from lib.exception_handling import FileDoesNotExists, SheetNotFound
+from lib.exception_handling import FileDoesNotExists, SheetNotFound, WrongFileType
 
 
 class ReadExcel: 
@@ -25,6 +25,9 @@ class ReadExcel:
     self.get_cell_value = lambda row, col: self.__sheet.cell_value(row, col)
 
   def read_workbook(self, path: str) -> Book:
+    if  path[-4:] != '.xls':
+      raise WrongFileType
+
     try:
       return xlrd.open_workbook(path)
     except FileNotFoundError:
@@ -42,3 +45,4 @@ class ReadExcel:
       new_row = [self.__sheet.cell_value(row, i) for i in range(self.number_of_columns)]
       rows.append(new_row)
     return rows
+

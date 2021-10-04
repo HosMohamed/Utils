@@ -7,3 +7,8 @@ class SheetNotFound(Exception):
   def __init__(self, message = '') -> None:
       message = 'The sheet you wish to read does NOT exist in the index you specified.'
       super().__init__(message)
+
+class WrongFileType(BaseException):
+  def __init__(self, message = '') -> None:
+      message = 'The file you specified is NOT of type (xls, xlsx).'
+      super().__init__(message)
