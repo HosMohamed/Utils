@@ -1,17 +1,19 @@
 # ReadExcel
 
+> _Just to simplify the reading of excel files._
+
 ## Prerequists:
 - Python 3.6 and above.
 
 ## File Tree
 
-|-- ReadExcel/
-&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;|-- lib/
-&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;|-- exception_handling.py
-&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;|-- .gitignore
-&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;|-- read_excel.py
-&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;|-- README.md
-&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;|-- requirements.txt
+|-- ReadExcel/.   
+&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;|-- lib/.   
+&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;|-- exception_handling.py   
+&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;|-- .gitignore   
+&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;|-- read_excel.py   
+&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;|-- README.md   
+&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;|-- requirements.txt   
 
 ## To get started,
 
